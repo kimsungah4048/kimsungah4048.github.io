@@ -1,149 +1,283 @@
+/* index.html */
 
-
-
-
-a {
-  text-transform: uppercase !important;
-  color: white !important;
-  font-family: helvetica !important;
-  margin: 10px !important;
-  left: 50px !important;
-  position: relative !important;
-  top: 10px !important;
-
-}
-
-a:hover {
-  background-color: #689689;
-}
-
-body {
-  margin: 0;
-  background-color: black;
-}
-
-.navbar {
-  /*position: fixed !important;*/
-  top: 0 !important;
-  background-color: #22333B !important;
-  width: 100% !important;
-  margin: 0 !important;
-  height: 40px !important;
+html body {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  color: white;
+    position: fixed;
+    left: 1387px;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    z-index: 5;
 }
 
-img {
-  position: relative;
-  top: 650px;
-  padding: 10px;
+.sk {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    position: relative;
+    top: 40px;
+    left: 39px;
+    text-decoration: none;
+}
+
+.lists {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 540;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    width: 200px;
+    position: relative;
+    top: 60px;
+}
+
+#name {
+    color: #a340ff;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
-  position: fixed !important;
-  bottom: 40px !important;
-  width: 100%;
-  color: white !important;
-
-}
-footer > p {
-  text-align: center !important;
-}
-
-
-
-body {
-  display:
-  }
-
-
-.container {
-  display: flex;
-  height: 100vh;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content:space-around;
-  position: relative;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: start;
+    position: fixed;
+    top: 840px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+    width: 410px;
+    z-index: 9;
 }
 
-#image1 {
-  height: 300px;
+.icon {
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
 }
 
-#image2 {
-  height: 300px;
+.image {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 340px;
+    width: 166%;
 }
 
-#image3 {
-  height: 300px;
+#pattern {
+    height: 400px;
 }
 
-#image4 {
-  height: 300px;
+#notnow {
+    height: 400px;
 }
 
-#image5 {
-  height: 300px;
+#sun {
+    height: 400px;
 }
 
-#image6 {
-  height: 300px;
+#tibet {
+    height: 400px;
 }
 
-#image7 {
-  height: 300px;
+#pyl {
+    height: 400px;
 }
 
-#image8 {
-  height: 300px;
+.pre {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    position: fixed;
+    color: red;
 }
 
-#image9 {
-  height: 300px;
+.pre {
+    left: 110px;
+    top: 250px;
 }
 
-#image10 {
-  height: 300px;
+
+
+/* sungah.html */
+
+#me { 
+    height: 700px;
+    position: relative;
+    left: 100px;
+    top: 100px;
 }
 
-#image11 {
-  height: 300px;
+
+#abme {
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    position: relative;
+    left: 200px;
+    top: 600px;
 }
 
-#image12 {
-  height: 300px;
+.resume {
+    display: flex;
+    width: 80%;
+    height: 300px;
 }
 
-#image13 {
-  height: 300px;
+.bar {
+    background-color: rgb(132, 200, 255);
+    height: 1000px;
+    width: 300px;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
 }
 
-#image14 {
-  height: 300px;
+#meeee {
+    height: 300px;
+    position: relative;
+    left: 1455px;
+    z-index: 6;
+    top: 174px;
 }
 
-#image15 {
-  height: 300px;
+
+/* portfolio.html */
+
+.portfolio {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 180px;
+    top: 20px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    height: 800px;
 }
 
-#image16 {
-  height: 300px;
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12, #i13, #i14, #i15, #i16, #i17, #i18, #i19, #i20 {
+    height: 180px;
 }
 
-#image17 {
-  height: 300px;
+.bar-p {
+    background-color: rgb(132, 200, 255);
+    height: 1000px;
+    width: 300px;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
 }
 
-#image18 {
-  height: 300px;
+/* design.html */
+
+.designs {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+    height: 600px;
+    left: 250px;
+    margin-bottom: 80px;
 }
 
-#image19 {
-  height: 300px;
+#pattern-d, #nndesign, #notnow1-d, #nnphone, #slipon, #snowboard, #snowboard2, #postcard, #emo, #brochure, #art2019, #kimjong, #logo3, #logo2, #logo1 {
+    height: 150px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
-#image20 {
-  height: 300px;
+.c1, .c2, .c3, .c4, .c5, .c6 {
+    display: flex;
+    justify-content: center;
+}
+
+#logo3 {
+    margin-left: 10px;
+}
+
+
+/* product.html */
+
+.products {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    height: 600px;
+    left: 250px;
+    margin-bottom: 80px;
+}
+
+#vans {
+    height: 120px;
+    padding-top: 30px;
+}
+
+#notnowsample, #case-w, #case-o, #case-b, #case-p {
+    height: 150px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#pc1, #pc3, #pc2, #pc4{
+    height: 140px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#pc11, #pc22, #pc33, #pc44 {
+    height: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#ply-bag, #ply-b, #ply-bb{
+    height: 150px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.con1, .con2, .con3, .con4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* digital.html */
+
+.digitals {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    height: 600px;
+    left: 250px;
+    margin-bottom: 80px;
+}
+
+#momanddad, #box {
+    height: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
