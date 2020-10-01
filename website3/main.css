@@ -1,0 +1,555 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+/*index.html*/
+
+.container {
+  position: fixed;
+  left: 68rem;
+  height: 9.5rem;
+  top: 3rem;
+  z-index: 5;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  width: 12.5rem;
+  top: 3.75rem;
+  background-color: yellow;
+  border-radius: 10%;
+}
+
+#name {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  position: relative;
+  left: 2.8rem;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  top: 51rem;
+  z-index: 10;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding-top: 0.01875rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.image {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 21.2rem;
+  left: 0.5rem;
+  width: 120%;
+  margin-right: 1.25rem;
+}
+
+#pyl {
+  margin-right: 5rem;
+}
+
+#pattern,
+#notnow,
+#sun,
+#tibet,
+#pyl {
+  height: 18.75rem;
+  padding: 1.25rem;
+}
+
+.pre {
+  font-family: sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 56.25rem;
+  letter-spacing: 0.075rem;
+  line-height: 1.6;
+  position: fixed;
+}
+
+.pre {
+  left: 3.125rem;
+  top: 15.625rem;
+}
+
+/*sungah*/
+#me {
+  height: 43.75rem;
+  position: relative;
+  left: 6.25rem;
+  top: 6.25rem;
+}
+
+#abme {
+  width: 37.5rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.075rem;
+  line-height: 1.6;
+  position: relative;
+  left: 12.5rem;
+  top: 36.25rem;
+}
+
+.resume {
+  display: flex;
+  width: 80%;
+  height: 18.75rem;
+}
+
+#meeee {
+  height: 18.75rem;
+  position: relative;
+  left: 91rem;
+  z-index: 6;
+  top: 10.875rem;
+}
+
+/*portfolio*/
+
+.portfolio {
+  width: 56.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 7.5rem;
+  top: 1.2rem;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  height: 50rem;
+}
+
+#i1,
+#i2,
+#i3,
+#i4,
+#i5,
+#i6,
+#i7,
+#i8,
+#i9,
+#i10,
+#i11,
+#i12,
+#i13,
+#i14,
+#i15,
+#i16,
+#i17,
+#i18,
+#i19,
+#i20 {
+  height: 11rem;
+}
+
+/*design*/
+
+.designs {
+  display: flex;
+  justify-content: center;
+  width: 56.25rem;
+  flex-wrap: wrap;
+  position: relative;
+  top: 2.5rem;
+  height: 60;
+  left: 7.5rem;
+  margin-bottom: 5rem;
+}
+
+#pattern-d,
+#nndesign,
+#notnow1-d,
+#nnphone,
+#slipon,
+#snowboard,
+#snowboard2,
+#postcard,
+#emo,
+#brochure,
+#art2019,
+#kimjong,
+#logo3,
+#logo2,
+#logo1 {
+  height: 9.37rem;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+}
+
+#logo3 {
+  margin-left: 0.625rem;
+}
+
+/*product*/
+
+.con1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100%;
+  left: 7.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5.625rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  width: 56.25rem;
+  flex-wrap: wrap;
+  position: relative;
+  top: 2.5rem;
+  height: 100%;
+  left: 0.3rem;
+  margin-bottom: 5rem;
+}
+
+#vans {
+  display: flex;
+  justify-content: center;
+  height: 7.5rem;
+}
+
+#vans,
+#notnowsample,
+#case-w,
+#case-o,
+#case-b,
+#case-p,
+#pc1,
+#pc3,
+#pc2,
+#pc4,
+#pc11,
+#pc22,
+#pc33,
+#pc44,
+#ply-bag,
+#ply-b,
+#ply-bb {
+  height: 9.3rem;
+  margin: 0.625rem;
+}
+
+/*digital*/
+
+.digitals {
+  display: flex;
+  justify-content: center;
+  width: 56.25rem;
+  flex-wrap: wrap;
+  position: relative;
+  top: 3.75rem;
+  height: 37.5rem;
+  left: 7.5rem;
+  margin-bottom: 5rem;
+}
+
+#momanddad,
+#box,
+#nayoung {
+  height: 150px;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  html body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    left: 1px;
+    width: 100vw;
+    height: 9.5rem;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .container ul {
+    padding-left: 10px;
+  }
+
+  #name {
+    font-family: sans-serif;
+    line-height: 4rem;
+    font-size: 0.75rem;
+    position: fixed;
+    top: 2.5rem;
+    left: 2.5rem;
+    color: #a340ff;
+  }
+
+  .image {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 17rem;
+    left: 1rem;
+    width: 21rem;
+    flex-wrap: wrap;
+  }
+
+  .pre {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    position: fixed;
+    color: red;
+    left: 2.8rem;
+    top: 16rem;
+    z-index: 30;
+  }
+
+  #pattern,
+  #notnow,
+  #sun,
+  #tibet,
+  #pyl {
+    height: 13rem;
+    margin: 1.25rem;
+    z-index: 0;
+  }
+
+  #pyl {
+    margin-bottom: 5rem;
+  }
+
+  footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    top: 47rem;
+    z-index: 30;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0px;
+  }
+
+  /*sungah.html*/
+
+  .resume {
+    width: 80%;
+    flex-direction: column;
+    height: 68.75rem;
+  }
+
+  #abme {
+    top: 19rem;
+    left: 2.5rem;
+    width: 100%;
+    font-size: 0.75rem;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    line-height: 1.4;
+    position: relative;
+    font-family: sans-serif;
+  }
+
+  #me {
+    width: 23.95rem;
+    height: 33.9375rem;
+    position: relative;
+    left: -0.5rem;
+    top: 16rem;
+  }
+
+  /* portfolio.html*/
+
+  .portfolio {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 27.75rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    height: 6.25rem;
+    left: 0rem;
+  }
+
+  #i1,
+  #i2,
+  #i3,
+  #i4,
+  #i5,
+  #i6,
+  #i7,
+  #i8,
+  #i9,
+  #i10,
+  #i11,
+  #i12,
+  #i13,
+  #i14,
+  #i15,
+  #i16,
+  #i17,
+  #i18,
+  #i19,
+  #i20 {
+    height: 5rem;
+    margin: 0.125rem;
+  }
+
+  /*design.html*/
+
+  .designs {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0;
+    top: 10rem;
+    height: 43.75;
+  }
+
+  .c1 {
+    display: flex;
+    flex-basis: 1fr, 1fr, 1fr, 1fr;
+  }
+
+  .c5 {
+    margin-bottom: 2rem;
+  }
+
+  #logo3,
+  #logo2,
+  #logo1 {
+    padding-right: 0;
+  }
+
+  #pattern-d,
+  #slipon,
+  #snowboard,
+  #snowboard2 {
+    padding-right: 7px;
+  }
+
+  #pattern-d,
+  #nndesign,
+  #notnow1-d,
+  #nnphone,
+  #slipon,
+  #snowboard,
+  #snowboard2,
+  #postcard,
+  #emo,
+  #brochure,
+  #art2019,
+  #kimjong,
+  #logo3,
+  #logo2,
+  #logo1 {
+    height: 5rem;
+    margin: 0.3rem;
+  }
+
+  /*pruduct.html*/
+
+  .products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    top: 17rem;
+    height: 100%;
+    left: 0;
+  }
+
+  .con1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  #vans,
+  #notnowsample,
+  #case-w,
+  #case-o,
+  #case-b,
+  #case-p,
+  #pc1,
+  #pc3,
+  #pc2,
+  #pc4,
+  #pc11,
+  #pc22,
+  #pc33,
+  #pc44,
+  #ply-bag,
+  #ply-b,
+  #ply-bb {
+    height: 5rem;
+    margin: 0.625;
+  }
+
+  /*digital*/
+
+  .digitals {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 17rem;
+    height: 37.5rem;
+    left: 0px;
+    margin-bottom: 5rem;
+  }
+
+  #momanddad,
+  #box,
+  #nayoung {
+    height: 5rem;
+    margin: 0.625;
+  }
+}
